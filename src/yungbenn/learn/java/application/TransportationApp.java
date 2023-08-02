@@ -8,6 +8,7 @@ public class TransportationApp {
     ITransportation.getMachine("V8");
 
     Transportation bajaj = new Transportation();
-    System.out.printf("Bajaj has %s wheel", bajaj.getWheel(3));
+    System.out.printf("Bajaj has %s wheel\n", bajaj.getWheel(3));
+    System.out.printf("This bajaj's color is %s", bajaj.getColor("Red"));
   }
 }
