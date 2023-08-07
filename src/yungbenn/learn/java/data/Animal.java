@@ -2,10 +2,12 @@ package yungbenn.learn.java.data;
 
 public class Animal implements IAnimal {
 
+  @Override
   public String animalSound(String sound) {
     return sound;
   }
 
+  @Override
   public int animalLegs(int legs) {
     return legs;
   }
